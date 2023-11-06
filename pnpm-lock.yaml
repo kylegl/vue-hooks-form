@@ -26,6 +26,9 @@ importers:
       chalk:
         specifier: ^5.3.0
         version: 5.3.0
+      changelogen:
+        specifier: ^0.5.5
+        version: 0.5.5
       eslint:
         specifier: ^8.52.0
         version: 8.52.0
@@ -117,9 +120,6 @@ importers:
       '@types/lodash.unset':
         specifier: ^4.5.8
         version: 4.5.8
-      changelogen:
-        specifier: ^0.5.5
-        version: 0.5.5
 
   packages/yup:
     dependencies:
