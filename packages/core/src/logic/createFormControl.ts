@@ -39,7 +39,7 @@ import type { RegisterOptions } from '../types/validator'
 import { warn } from '../utils/warn'
 import { handleValidateError, validateField } from './validate'
 
-export function creatFormControl<TFieldValues extends FieldValues = FieldValues>(
+export function createFormControl<TFieldValues extends FieldValues = FieldValues>(
   _options: Partial<UseFormProps<TFieldValues>>,
 ): UseFormReturn<TFieldValues> {
   type FieldsKey = keyof TFieldValues
