@@ -1,13 +1,13 @@
 {
-  "name": "@vue-hooks-form/core",
-  "version": "0.0.14",
+  "name": "@kylegl/vue-hooks-form-core",
+  "version": "0.0.15-beta.1",
   "description": "Vue Composition API for validating form.",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
   "homepage": "https://github.com/elonehoo/vue-hooks-form#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/vue-hooks-form.git"
+    "url": "git+https://github.com/kylegl/vue-hooks-form.git"
   },
   "bugs": {
     "url": "https://github.com/elonehoo/vue-hooks-form/issues"

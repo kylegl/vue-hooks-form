@@ -21,6 +21,9 @@ Inspired by <a href="https://github.com/react-hook-form/react-hook-form">react-h
 <br>
 <br>
 
+## TO PUBLISH
+- cd to package folder & update version manually. then run npm publish --access=public
+
 ## Features
 
 - Type Strong: Written in TypeScript

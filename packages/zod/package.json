@@ -1,13 +1,13 @@
 {
-  "name": "@vue-hooks-form/zod",
-  "version": "0.0.14",
+  "name": "@kylegl/vue-hooks-form-zod",
+  "version": "0.0.15-beta.1",
   "description": "zod resolver for vue-hooks-form",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
   "homepage": "https://github.com/elonehoo/vue-hooks-form#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/vue-hooks-form.git"
+    "url": "git+https://github.com/kylegl/vue-hooks-form.git"
   },
   "bugs": {
     "url": "https://github.com/elonehoo/vue-hooks-form/issues"
@@ -35,10 +35,10 @@
     "build:fix": "esno scripts/postbuild.ts"
   },
   "peerDependencies": {
-    "@vue-hooks-form/core": "workspace:*"
+    "@kylegl/vue-hooks-form-core": "workspace:*"
   },
   "dependencies": {
-    "@vue-hooks-form/core": "workspace:*",
+    "@kylegl/vue-hooks-form-core": "workspace:*",
     "zod": "3.22.4"
   }
 }

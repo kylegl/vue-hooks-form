@@ -1,7 +1,9 @@
 {
-  "name": "@vue-hooks-form/monorepo",
+  "name": "@kylegl/vue-hooks-form-monorepo",
+  "publishConfig": {
+    "@kylegl:registry": "https://registry.npmjs.org"
+  },
   "version": "0.0.15-beta.0",
-  "private": "true",
   "description": "Vue Composition API for validating form.",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
@@ -31,7 +33,8 @@
     "docs:serve": "pnpm -C docs run serve",
     "release": "changelogen --release",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "publish": "npm run build && npm publish -r --access=public"
   },
   "peerDependencies": {
     "vue": "^3.2.45"
